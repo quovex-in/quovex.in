@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+<defs>
+  <linearGradient id="qg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1769D8"/>
+    <stop offset="100%" stop-color="#12BDEB"/>
+  </linearGradient>
+</defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+
+<g transform="translate(90 70)">
+  <circle cx="190.0" cy="190.0" r="136.8"
+          fill="#1769D8" stroke="none" stroke-width="49.4"/>
+  <path d="M 114.0 163.4
+           L 190.0 163.4
+           L 273.6 258.4
+           L 334.4 186.2
+           L 376.2 186.2
+           L 285.0 296.4
+           L 239.4 296.4 Z"
+        fill="#12BDEB" stroke="none" stroke-width="6.8"/>
+  <g fill="#12BDEB">
+    <rect x="273.6" y="30.4" width="26.6" height="26.6" rx="3"/>
+    <rect x="311.6" y="60.8" width="20.9" height="20.9" rx="2"/>
+    <rect x="345.8" y="22.8" width="17.1" height="17.1" rx="2"/>
+    <rect x="319.2" y="95.0" width="15.2" height="15.2" rx="2"/>
+  </g>
+</g>
+
+<text x="520" y="310" text-anchor="middle"
+ font-family="Montserrat, Poppins, Arial, sans-serif" font-size="92"
+ font-weight="700" letter-spacing="-3" fill="#0B1730">
+  Quo<tspan fill="#12BDEB">V</tspan>ex
+</text>
+<text x="525" y="370" text-anchor="middle"
+ font-family="Montserrat, Poppins, Arial, sans-serif" font-size="20"
+ font-weight="500" letter-spacing="5" fill="#66758B">
+  AUTOMATE INTELLIGENTLY
+</text>
+</svg>
