@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root { --ink: #15211f; --paper: #f2f0ea; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background: var(--paper); color: var(--ink); font-family: 'Manrope', sans-serif; margin: 0; }
+a { color: inherit; text-decoration: none; }
+.siteHeader { align-items: center; display: flex; justify-content: space-between; margin: 0 auto; max-width: 1440px; padding: 28px 5.5vw; }
+.brand { align-items: center; display: flex; font-size: 1.25rem; font-weight: 800; gap: 10px; letter-spacing: -.06em; }
+.brandMark { display: inline-flex; gap: 2px; height: 18px; transform: skew(-13deg); }
+.brandMark i { background: var(--ink); display: block; height: 18px; width: 4px; }.brandMark i:nth-child(2) { height: 13px; margin-top: 5px; }.brandMark i:nth-child(3) { height: 8px; margin-top: 10px; }
+.siteNav { align-items: center; display: flex; gap: 30px; }.siteNav a { font-family: 'DM Mono', monospace; font-size: .67rem; letter-spacing: .04em; text-transform: uppercase; }.siteNav a:hover { opacity: .58; }.headerCta { border-bottom: 1px solid var(--ink); padding-bottom: 7px; }.headerCta span { font-size: 1.1rem; margin-left: 8px; }
+.siteFooter { align-items: center; background: var(--ink); color: #a7b0a6; display: flex; font-family: 'DM Mono', monospace; font-size: .62rem; justify-content: space-between; letter-spacing: .04em; padding: 27px 5.5vw; text-transform: uppercase; }.siteFooter a { color: var(--paper); }
+@media (max-width: 760px) { .siteHeader { padding: 22px 6vw; }.siteNav { gap: 16px; }.siteNav a:not(.headerCta) { display: none; }.siteNav a { font-size: .58rem; }.siteFooter { align-items: flex-start; flex-direction: column; gap: 11px; padding: 25px 6vw; } }
